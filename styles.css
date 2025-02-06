@@ -23,6 +23,8 @@ body {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px; /* Maximum width to avoid stretching */
+    width: 90%; /* Takes up 90% of the screen width */
 }
 
 /* Name styling */
@@ -46,6 +48,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 20px;
+    flex-wrap: wrap; /* Allows icons to wrap on smaller screens */
 }
 
 /* Individual icon link styles */
